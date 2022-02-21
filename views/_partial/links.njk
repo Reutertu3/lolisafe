@@ -16,10 +16,10 @@
       {% for link in globals.home_links -%}
       {{ (separator() | safe) if separator }}
       <div class="column is-narrow">
-        <!-- <a {{ attrs(link.attrs) | trim }}> -->
-          <!--  {% if separator -%} -->
-          <!-- {{ link.attrs.title }} -->
-         <!--  {%- else -%} -->
+        <a {{ attrs(link.attrs) | trim }}>
+          {% if separator -%}
+          {{ link.attrs.title }}
+          {%- else -%}
           <span class="icon is-medium">
             <i class="{{ link.icon }}"></i>
           </span>
