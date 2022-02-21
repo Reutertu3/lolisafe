@@ -1,8 +1,8 @@
 {
-  "Name": "safe.fiery.me",
+  "Name": "Pepofiles",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://safe.fiery.me/api/upload",
+  "RequestURL": "https://pepofiles.ddns.net/api/upload",
   "Headers": {
     "token": "",
     "albumid": "",
